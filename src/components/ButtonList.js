@@ -1,11 +1,12 @@
 import React from 'react'
 import Button from './Button'
 
-// const list = ["All", "News", "Cricket", "Songs", "Crime", "Matches", "Cooking", "Devotional", "Live", "Kapil Sharma", "Music", "Old Songs", "Bhakti", "Mixes", "Gaming", "Movies"]
+const lists = ["All", "News", "Cricket", "Songs", "Crime", "Matches", "Cooking", "Devotional", "Live", "Kapil Sharma", "Music", "Old Songs", "Bhakti", "Mixes", "Gaming", "Movies"]
 
 function ButtonList() {
     return (
         <div className=' flex'>
+
             <Button name="All" />
             <Button name="News" />
             <Button name="Cricket" />
